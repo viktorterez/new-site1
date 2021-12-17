@@ -1,0 +1,16 @@
+.container_footer{
+
+    display: flex;
+    padding-left: 13%;
+    padding-right: 13%;
+    height: 90px;
+    background-color: #1a1a1d;
+    justify-content:space-between;
+    align-items: center;
+    color: #666666;
+    font-size: 0.875rem;
+}
+.footer_text-light{
+    color: #7f7f80;
+
+}

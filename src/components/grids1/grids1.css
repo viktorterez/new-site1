@@ -1,0 +1,139 @@
+.grid-container {
+    height: 840px;
+    display: grid;
+    grid-template-columns: 0.65fr 1.3fr 1.3fr 0.65fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "firstGrig highty thriggrid fifthgrig"
+      "secondgrig highty forthgrid sixthgrid";
+  }
+  .firstGrig { grid-area: firstGrig;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-image: url(../../assets/grigs1Images/1grid.jpg); 
+background-position: center;}
+  .secondgrig { grid-area: secondgrig;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-image: url(../../assets/grigs1Images/2grid.jpg);
+    background-position: center; }
+  .thriggrid { grid-area: thriggrid; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-image: url(../../assets/grigs1Images/grid7.png);
+    background-position: center;}
+    
+  .forthgrid { grid-area: forthgrid; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-image: url(../../assets/grigs1Images/grid4.jpg);
+    background-position: center;}
+
+  .fifthgrig { grid-area: fifthgrig; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-image: url(../../assets/grigs1Images/grig5.jpg);
+    background-position: center;
+}
+
+  .sixthgrid { grid-area: sixthgrid; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    background-image: url(../../assets/grigs1Images/grid6.jpg);
+    background-position: center;
+}
+
+  .highty { 
+        grid-area: highty;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+        background-image: url(../../assets/grigs1Images/grid3.jpg); 
+        background-position: center;
+}
+
+.firstGrig .gridText {
+    opacity: 0;
+
+}
+.firstGrig:hover .gridText{
+    opacity: 1;
+    cursor: pointer;
+}
+.secondgrig .gridText {
+    opacity: 0;
+
+}
+.secondgrig:hover .gridText{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.thriggrid .gridText {
+    opacity: 0;
+
+}
+.thriggrid:hover .gridText{
+    opacity: 1;
+    cursor: pointer;
+}
+.forthgrid .gridText {
+    opacity: 0;
+
+}
+.forthgrid:hover .gridText{
+    opacity: 1;
+    cursor: pointer;
+}
+.fifthgrig .gridText {
+    opacity: 0;
+
+}
+.fifthgrig:hover .gridText{
+    opacity: 1;
+    cursor: pointer;
+}
+.sixthgrid .gridText {
+    opacity: 0;
+
+}
+.sixthgrid:hover .gridText{
+    opacity: 1;
+    cursor: pointer;
+}
+.highty .gridText {
+    opacity: 0;
+
+}
+.highty:hover .gridText{
+    opacity: 1;
+    cursor: pointer;
+}

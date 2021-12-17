@@ -1,0 +1,137 @@
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    height: 736px;
+}
+.fade {
+    height: 736px;
+
+    -webkit-animation-name:fade ;
+    -webkit-animation-duration: 1.5s ;
+    animation-name:fade ;
+    animation-duration: 1.5s;
+
+    @-webkit-keyframes fade{
+        from{opacity: .4}
+        to{opacity: 1}
+    }
+    @keyframes fade{
+        from{opacity: .4}
+        to{opacity: 1}
+    }
+
+
+}
+.numbertext {
+}
+
+.sliderItem1 {
+    position: relative;
+    height: 100%;
+    background-image: url("../../../assets/imagesSlider/third.jpg") ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+.text {
+    color: white;
+    font-weight: 400;
+    font-size: 3.125rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.smallText{
+    margin-top: 14px;
+    color: white;
+    font-weight:lighter;
+    font-size: 1.75rem;
+    font-family: sans-serif;
+
+}
+.button {
+    width: 200px;
+    height: 53px;
+    margin-top: 40px;
+    color: rgb(253, 255, 250);
+    font-weight: 600;
+    font-size: 0.75rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    outline: thin;
+    border-radius: 4px;
+    border: 1px solid rgb(253, 255, 250);
+    text-align: center; 
+    /* margin: 0 auto; */
+    padding: 6px;
+    padding-top: 7px;
+    cursor: pointer;
+
+}
+.button:hover {
+    background-color: #292b2d;
+    border: none;
+
+}
+.prev, .next {
+    margin: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 52%;
+    /* width: auto; */
+    width: 50px;
+    height: 45px;
+    margin-top: -22px;
+    text-align: center;
+    padding-top: 3px;
+    /* padding: 16px;
+    padding-bottom: 25px; */
+    color:white;
+    background-color: #323436;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.7s ease;
+    border-radius: 3px 3px 3px 3px;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+    background-color: rgba(185, 200, 185, 0.8);
+}
+.dotLine {
+    position: absolute;
+    bottom: 20px;
+}
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+ .dot:hover{
+    background-color: #ffffff;
+} 
+
+.img {
+    opacity: 80%;
+}
+
+.buttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
